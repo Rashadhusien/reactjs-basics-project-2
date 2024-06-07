@@ -10,7 +10,7 @@ const Button = ({ children, className, width, ...rest }: IProp) => {
   // console.log({ rest });
   return (
     <button
-      className={`${className} ${width}  p-2 rounded-md text-white`}
+      className={`${className} ${width}  p-2 rounded-lg text-white`}
       {...rest}
     >
       {children}

@@ -15,7 +15,7 @@ const ProductCard = ({ product }: IProp) => {
       <Image
         imageUrl="/public/portfolio.png"
         alt="photo"
-        className="rounded-md mb-2"
+        className="rounded-md mb-2 object-contain"
       />
       <h2 className="text-lg font-semibold">{textSlicer(title, 25)}</h2>
 
