@@ -111,13 +111,13 @@ export const productList: Iproduct[] = [
 export const formInputList: IForm[] = [
   {
     id: "title",
-    name: " title",
+    name: "title",
     label: "Product Title",
     type: "text",
   },
   {
     id: "description",
-    name: " description",
+    name: "description",
     label: "Product description",
     type: "text",
   },
@@ -129,7 +129,7 @@ export const formInputList: IForm[] = [
   },
   {
     id: "price",
-    name: " price",
+    name: "price",
     label: "Product price",
     type: "text",
   },
