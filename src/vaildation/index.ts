@@ -30,7 +30,7 @@ export const porductValidation = (product: {
     price: "",
   };
 
-  const validUrl = /^(ftp|http|https):\/\/[^ "]+$/.test(product.imageURL);
+  // const validUrl = /^(ftp|http|https):\/\/[^ "]+$/.test(product.imageURL);
 
   if (
     !product.title.trim() ||
@@ -47,7 +47,8 @@ export const porductValidation = (product: {
     errors.description =
       "Product description must be between 10 and 900 characters!";
   }
-  if (!product.imageURL.trim() || !validUrl) {
+  //!validUrl
+  if (!product.imageURL.trim()) {
     errors.imageURL = "Vaild Image Url Is Reuquired!";
   }
   if (!product.price.trim() || isNaN(Number(product.price))) {

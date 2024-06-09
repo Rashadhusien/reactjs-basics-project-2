@@ -7,12 +7,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea 's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "bootstrap.jpg",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "bootstrap.jpg",
     },
   },
   {
@@ -20,12 +20,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea   's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "CSS-Animation-BCG-Banner-1.png",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "CSS-Animation-BCG-Banner-1.png",
     },
   },
   {
@@ -33,12 +33,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "sass-mixin-banner.png",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "sass-mixin-banner.png",
     },
   },
   {
@@ -46,12 +46,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "gulpjs.jpg",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "gulpjs.jpg",
     },
   },
   {
@@ -59,12 +59,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "html-course-banner.jpg",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/prayertimings.png",
+      imageURL: "html-course-banner.jpg",
     },
   },
   {
@@ -72,12 +72,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "js-and-frameworks-banner.png",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "js-and-frameworks-banner.png",
     },
   },
   {
@@ -85,12 +85,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "next.png",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/ordersummerycard.png",
+      imageURL: "next.png",
     },
   },
   {
@@ -98,12 +98,12 @@ export const productList: Iproduct[] = [
     title: "2022 Genesis Gv70: Nominee",
     description:
       "lAs luxury brans go, south krea 's genesis is still in its infancy, hangine lAs luxury brans go, south krea  's genesis is still in its infancy, hangine lAs luxury bran's genesis is still in its infancy, hangine",
-    imageURL: "/public/portfolio.png",
+    imageURL: "tailwind.jpg",
     price: "500,00",
     colors: ["#FF0031", "#2563eb", "#FF6E31"],
     category: {
       name: "cars",
-      imageURL: "/public/portfolio.png",
+      imageURL: "tailwind.jpg",
     },
   },
 ];
@@ -133,4 +133,20 @@ export const formInputList: IForm[] = [
     label: "Product price",
     type: "text",
   },
+];
+
+export const colors: string[] = [
+  "#a855f7",
+  "#2563eb",
+  "#84d2c5",
+  "#1300a5",
+  "#13005a",
+  "#a31acb",
+  "#a12",
+  "#000000",
+  "#ff6e31",
+  "#3c2a21",
+  "#af8a70",
+  "#820000",
+  "#ff0032",
 ];
